@@ -64,6 +64,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2040
+- serviceName: project.siqatest1707git.integrations:refdat
+  packages:
+  - name: Siqatest1707GitProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqatest1707git.referencedata:refdat1
+  packages:
+  - name: Siqatest1707GitProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqatest1707git.integrations:t1
   packages:
   - name: Siqatest1707GitProject
